@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кофе с корицей по четвергам</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Inter,sans-serif;
+background:#0f0e0d;
+color:#f5f3f0;
+line-height:1.7;
+}
+
+/* HERO */
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.8)),
+url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+background-size:cover;
+background-position:center;
+}
+
+.hero img{
+width:140px;
+margin-bottom:30px;
+filter:drop-shadow(0 10px 20px rgba(0,0,0,.6));
+}
+
+.hero h1{
+font-family:"Playfair Display",serif;
+font-size:44px;
+max-width:700px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:600px;
+opacity:.85;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section{
+margin-bottom:70px;
+}
+
+h2{
+font-family:"Playfair Display",serif;
+font-size:34px;
+margin-bottom:20px;
+}
+
+/* IMAGES */
+
+.image{
+width:100%;
+border-radius:14px;
+margin:25px 0;
+box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+/* CARD */
+
+.card{
+background:#1a1917;
+padding:30px;
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,.5);
+}
+
+/* QUOTE */
+
+.quote{
+font-size:22px;
+font-style:italic;
+border-left:4px solid #caa46b;
+padding-left:20px;
+margin:40px 0;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px 20px;
+background:#0a0908;
+opacity:.7;
+}
+
+/* FLOATING STEAM ANIMATION */
+
+.steam{
+position:fixed;
+bottom:-100px;
+left:50%;
+width:200px;
+height:200px;
+background:radial-gradient(circle,rgba(255,255,255,.2),transparent);
+animation:steam 8s infinite linear;
+}
+
+@keyframes steam{
+0%{transform:translateX(-50%) translateY(0) scale(.6);opacity:.2}
+50%{opacity:.4}
+100%{transform:translateX(-50%) translateY(-900px) scale(1.2);opacity:0}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="steam"></div>
+
+<section class="hero">
+
+<img src="hero.jpg">
+
+<h1>Кофе с корицей по четвергам ☕</h1>
+
+<p>
+Красивая легенда о кофе, корице и энергии Юпитера.
+Говорят, что тот, кто пьет этот напиток по четвергам,
+привлекает удачу и финансовое благополучие.
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="section">
+
+<h2>Почему именно четверг</h2>
+
+<p>
+В древней астрологии каждый день недели связан с определённой планетой.
+Четверг находится под покровительством Юпитера — планеты роста,
+богатства и удачи.
+</p>
+
+<p>
+Поэтому именно этот день считается идеальным временем для начала новых дел,
+обучения и развития.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Кофе с корицей — символ изобилия</h2>
+
+<p>
+На Востоке корицу считали магической специей,
+которая привлекает деньги и удачу.
+</p>
+
+<img class="image" src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+
+<div class="card">
+
+<p>
+Соединение бодрящего кофе и пряной корицы
+символически усиливает энергию Юпитера —
+поэтому напиток стал частью небольшого
+«кофейного ритуала процветания».
+</p>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Польза корицы</h2>
+
+<ul>
+<li>помогает регулировать уровень сахара</li>
+<li>ускоряет обмен веществ</li>
+<li>улучшает настроение</li>
+<li>добавляет сладость без сахара</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Кофейный ритуал</h2>
+
+<div class="quote">
+«Пряная корица вкус кофе прибавляет,
+а деньги ко мне прирастают.»
+</div>
+
+<p>
+Главное — наслаждаться ароматом кофе и относиться
+к этому ритуалу с лёгкостью.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+CoffeeDM ☕
+
+</footer>
+
+</body>
+</html>
